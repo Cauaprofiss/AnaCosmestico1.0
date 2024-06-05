@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="SHORTCUT ICON" href="Logo ana cosmeticos.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet" href="pag.css">
+   <title>AnaCosmetico.com</title>
+</head>
+<script src="ini.js"></script>
+<body>
+<header>
+  
+<nav id="cabeçalho">
+  <center>
+ <img id="logo"src="Logo ana cosmeticos.png">
+ 
+</center>
+</nav>
+<nav id="cabeçalho2">
+  <center>
+    <div class="menu">
+      <button class="material-symbols-outlined" id="side" onclick="abrmen()">Menu</button>
+      <div id="sidebar">
+        <button class="material-symbols-outlined" id="sair" onclick="fecmen()">close</button>
+        <ul id="list">
+          <div id="alinha">
+            <li><a href="inicio.html">Início</a></li>
+          <li><a href="Cabelo.html">Cabelo</a></li>
+          <li><a href="Demillus.html">Demillus</a></li>
+          <li><a href="crmpesabliq.html">Creme de pés e Sabonete líquido</a></li>
+          <li><a href="Tupperware.html">Tupperware</a></li>
+          <li><a href="sabnatobo.html">Sabonete Natura e Oboticário</a></li>
+          <li><a href="desod.html">Desodorante Colônia e rolon</a></li>
+          <li><a href="Rosto.html">Maquiagem e limpeza de pele</a></li>
+          <li><a onclick="abrperf()">Perfume</a></li>
+          <div id="perfume">
+            <ul>
+              <li><a href="Perfem.html">>Perfume Feminino</a></li>
+              <li><a href="Perfumas.html">>Perfume Masculino</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrkit()">Kits</a></li>
+          <div id="kits">
+            <ul>
+              <li><a href="KitObo.html">>Kits Oboticário</a></li>
+              <li><a href="Kithidraobo.html">>Kits Hidratantes+Sabonete Oboticário</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrinfan()">Infantil</a></li>
+          <div id="infan">
+            <ul>
+          <li><a href="infannat.html">>Infantil Natura</a></li>
+          <li><a href="infanobo.html">>Infantil Oboticário</a></li>
+        </ul>
+        </div>
+        <li><a href="hidra.html">Hidratantes</a></li>
+        </div>
+        </ul>
+      </div>
+            </div>
+      <ul>
+    <li id="pesquisa"><input placeholder="qual produto você deseja?" onkeyup="pesquisarProduto()"></li>
+
+    <li><button id="carrinho" class="material-symbols-outlined" onclick="abrcar()">shopping_cart</button></li>
+    <div id="shop">
+      <button id="volt" onclick="feccar()">voltar</button>
+      <div id="prod"></div>
+      <button id="fim" onclick="finalizarCompra()">Finalizar</button>
+    </div>
+</ul>
+  </center>
+</nav>
+</header>
+<main>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-06-03 à(s) 20.41.17_fe383fc2.jpg">
+    <h3>Kit Pessego<br>e flor de cravo</h3>
+    <p>R$50,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.43_cca57632.jpg">
+    <h3>Kit Hidratante e<br> sabonte Macadâmia</h3>
+    <p>R$70,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0135.jpg">
+    <h3>Kit creme chá de<br>avelã e lavanda com<br>sabonete leite e mel</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.31.54_cfdb6377.jpg">
+    <h3>Hidratante Natura</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0258.jpg">
+    <h3>Hidratante+<br>Sabonete</h3>
+    <p>R$50,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0065.jpg">
+    <h3>Kit sabonete Algodão<br>com sabonete leite e mel</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0263.jpg">
+    <h3>Hidratante+<br>Sabonete</h3>
+    <p>R$50,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.25_f6884ca9.jpg">
+    <h3>Refil Chá de camomila<br>e lavanda</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.42_6eb13c88.jpg">
+    <h3>Hidratante Boa noite</h3>
+    <p>R$55,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.46_3a9fcd4a.jpg">
+    <h3>Hidratante nativaspa<br> quinoa</h3>
+    <p>R$55,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="IMG-20240514-WA0275.jpg">
+    <h3>Hidratante+Sabonete</h3>
+    <p>R$50,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0166.jpg">
+    <h3>Kit colônia Luna<br>e sabonete maracujá</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0126.jpg">
+    <h3>Kit sabonete e creme<br>Algodão</h3>
+    <p>R$70,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0140.jpg">
+    <h3>Kit creme e sabonete<br>Capim e limão</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img  id="img"  src="IMG-20240514-WA0139.jpg">
+    <h3>Kit creme Macadâmia<br>com sabonete amora e<br>jabuticaba</h3>
+    <p>R$80,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0129.jpg">
+    <h3>Kit creme Macadâmia<br>com sabonete leite e mel</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0065.jpg">
+    <h3>Kit sabonete Algodão<br>com sabonete leite e mel</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0058.jpg">
+    <h3>Kit hidratante Macadâmia<br> e sabonete leite e mel</h3>
+    <p>R$78,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0073.jpg">
+    <h3>Kit hidratante Macadâmia<br>com sabonete Algodão<h3>
+    <p>R$80,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0075.jpg">
+    <h3>Kit hidratante castanha<br>com sabonete leite e mel</h3>
+    <p>R$83,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0089.jpg">
+    <h3>Kit desodorante e <br>creme Macadâmia</h3>
+    <p>R$70,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0102.jpg">
+    <h3>Kit desodorante e creme<br>Algodão</h3>
+    <p>R$70,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0118.jpg">
+    <h3>Kit desodorante e<br>creme capim e limão</h3>
+    <p>R$70,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0082.jpg">
+    <h3>Kit hidratante Algodão<br>e sabonete leite e mel</h3>
+    <p>R$78,00</p>
+    <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0066.jpg">
+    <h3>Kit cereja e avelã<br> com sabonete leite e mel</h3>
+    <p>R$73,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0011.jpg">
+    <h3> kit Colônia Essencial <br>com sabonete maracujá</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0146.jpg">
+    <h3>Kit Colônia Luna<br>e sabonete maracujá</h3>
+    <p>R$68,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0003.jpg">
+    <h3>Kit Kaiak</h3>
+    <p>R$110,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0019.jpg">
+    <h3>Kit óleo de banho e <br>sabonete leite e mel</h3>
+    <p>R$88,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.29_6541d310.jpg">
+    <h3>Óleo Corporal</h3>
+    <p>R$65,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section> 
+  <section id="produto">
+    <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 00.35.29_95920d76.jpg">
+    <h3>Kit creme de mão e<br>hidratante</h3>
+    <p>R$39,90</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section> 
+  <section id="produto">
+    <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 00.27.47_cb596161.jpg">
+    <h3>Kit hidratante e <br>Body splash</h3>
+    <p>R$75,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section> 
+  
+</main>
+
+<footer>
+  <center>
+  <div id="contato">
+      <ul>
+    <h3>Qualquer dúvida entre em contato:</h3>
+    <li><a href="https://wa.me/5511968079403/?text=">Revendedora:(11)96907-9403</a></li>
+    <li><a href="https://wa.me/5511943473207/?text=">Desenvolvedor(11)94347-3207</a></ul>
+  </ul>
+    </ul>
+  </div>
+  <h5>&copy; 2024 Minha Loja Online</h5>
+</center>
+</footer>
+</body>
+</html>

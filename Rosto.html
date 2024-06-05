@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="SHORTCUT ICON" href="Logo ana cosmeticos.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet" href="pag.css">
+   <title>AnaCosmetico.com</title>
+</head>
+<script src="ini.js"></script>
+<body>
+<header>
+  
+<nav id="cabeçalho">
+  <center>
+ <img id="logo"src="Logo ana cosmeticos.png">
+ 
+</center>
+</nav>
+<nav id="cabeçalho2">
+  <center>
+    <div class="menu">
+      <button class="material-symbols-outlined" id="side" onclick="abrmen()">Menu</button>
+      <div id="sidebar">
+        <button class="material-symbols-outlined" id="sair" onclick="fecmen()">close</button>
+        <ul id="list">
+          <div id="alinha">
+            <li><a href="inicio.html">início</a></li>
+          <li><a href="Cabelo.html">Cabelo</a></li>
+          <li><a href="Demillus.html">Demillus</a></li>
+          <li><a href="crmpesabliq.html">Creme de pés e Sabonete líquido</a></li>
+          <li><a href="Tupperware.html">Tupperware</a></li>
+          <li><a href="sabnatobo.html">Sabonete Natura e Oboticário</a></li>
+          <li><a href="desod.html">Desodorante Colônia e Rolon</a></li>
+          <li><a onclick="abrperf()">Perfume</a></li>
+          <div id="perfume">
+            <ul>
+              <li><a href="Perfem.html">>Perfume Feminino</a></li>
+              <li><a href="Perfumas.html">>Perfume Masculino</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrkit()">Kits</a></li>
+          <div id="kits">
+            <ul>
+              <li><a href="KitObo.html">>Kits Oboticário</a></li>
+              <li><a href="kithidra.html">>Kits Hidratantes+Sabonete, Body splash Natura</a></li>
+              <li><a href="Kithidraobo.html">>Kits Hidratantes+Sabonete Oboticário</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrinfan()">Infantil</a></li>
+          <div id="infan">
+            <ul>
+          <li><a href="infannat.html">>Infantil Natura</a></li>
+          <li><a href="infanobo.html">>Infantil Oboticário</a></li>
+        </ul>
+        </div>
+        <li><a href="hidra.html">Hidratantes</a></li>
+        </div>
+        </ul>
+      </div>
+            </div>
+      <ul>
+        
+    <li id="pesquisa"><input placeholder="qual produto você deseja?" onkeyup="pesquisarProduto()"></li>
+
+    <li><button id="carrinho" class="material-symbols-outlined" onclick="abrcar()">shopping_cart</button></li>
+    <div id="shop">
+      <button id="volt" onclick="feccar()">voltar</button>
+      <div id="prod"></div>
+      <button id="fim" onclick="finalizarCompra()">Finalizar</button>
+    </div>
+</ul>
+  </center>
+</nav>
+</header>
+<main>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0280.jpg">
+    <h3>Spray texturizador</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0272.jpg">
+    <h3>Kit pincel</h3>
+    <p>R$33,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-06-01 à(s) 17.50.49_d6796f9c.jpg">
+    <h3>Protetor solar facial</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0271.jpg">
+    <h3>Pós barba</h3>
+    <p>R$44,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0268.jpg">
+    <h3>Blush Melissa</h3>
+    <p>R$42,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0251.jpg">
+    <h3>Gel pós barba</h3>
+    <p>R$14,99</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0247.jpg">
+    <h3>Limpeza facial</h3>
+    <p>R$29,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0240.jpg">
+    <h3>Protetor solar Spray</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0237.jpg">
+    <h3>delineador Melissa</h3>
+    <p>R$45,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0234.jpg">
+    <h3>Gel de limpeza</h3>
+    <p>R$41,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 00.54.00_e06fa215.jpg">
+    <h3>Gel de limpeza por:R$41,90,<br>Limpeza facial por:R$29,90 <br>e gel de limpeza <br>Antibacteriano<br>por:R$29,90</h3>
+    <p>Escolha o seu</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0235.jpg">
+    <h3>Paleta de cores</h3>
+    <p>R$280,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0232.jpg">
+    <h3>Spray de Volume da natura</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img  id="img"  src="IMG-20240514-WA0231.jpg">
+    <h3>Fixador de maquiagem</h3>
+    <p>R$24,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0227.jpg">
+    <h3>Kit pincel Oboticario</h3>
+    <p>R$84,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0228.jpg">
+    <h3>Paleta de cores</h3>
+    <p>R$180,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0213.jpg">
+    <h3>Espuma de barbear</h3>
+    <p>R$60,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0209.jpg">
+    <h3>Kit Espuma de barbear<br>e pós-barba Men</h3>
+    <p>R$105,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-30 à(s) 16.34.37_d64ff417.jpg">
+    <h3>Rímel Soul turbo 7.0</h3>
+    <p>R$36,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0205.jpg">
+    <h3>Rímel Color trend</h3>
+    <p>R$25,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0194.jpg">
+    <h3>Gel de limpeza<br>Antibacteriano</h3>
+    <p>R$29,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.12.10_2b2889f2.jpg">
+    <h3>Batom uva relax</h3>
+    <p>R$18,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.11_7560f785.jpg">
+    <h3>triplo Esfoliante e<br>tratamento para acne por:<br>R$22,00, Hidratante por:<br>R$28,00 e Esfoliante <br>controle de brilho <br>por:R$21,00</h3>
+    <p>R$18,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0193.jpg">
+    <h3>Volumaço para cílios</h3>
+    <p>R$34,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.35_53397c99.jpg">
+    <h3>Batom Sweet croc</h3>
+    <p>R$34,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.35_e7b68981.jpg">
+    <h3>Batom 16 horas</h3>
+    <p>R$39,99</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.33_f53f94fa.jpg">
+    <h3>Batom Líquido</h3>
+    <p>R$47,99</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.13_fd106e6b.jpg">
+    <h3>Paleta de cores</h3>
+    <p>R$160,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.16_7426d03f.jpg">
+    <h3>Pós sol por:R$30,00,<br>Protetor 30fps por:R$40,00, <br>Protetor infantil por:<br>R$33,00 e Protetor 50fps <br>por:R$45,00</h3>
+    <p>Escolha o seu</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.21_8ad8626a.jpg">
+    <h3>Protetor Solar com cor</h3>
+    <p>R$45,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+   <section id="produto">
+        <img id="img" src="IMG-20240514-WA0198.jpg">
+        <h3>Creme depilatório</h3>
+        <p>R$28,00</p>
+        <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+      </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0176.jpg">
+    <h3>Creme de barbear</h3>
+    <p>R$40,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0174.jpg">
+    <h3>Lápis delineador por:<br>R$14,00 a unidade</h3>
+    <p>Escolha o seu</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img  id="img"  src="IMG-20240514-WA0162.jpg">
+    <h3>Kit sophie pincels<br>wish</h3>
+    <p>R$39,90</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0104.jpg">
+    <h3>Sophie brilho <br>labial wish</h3>
+    <p>R$19,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0099.jpg">
+    <h3>Gloss Bubballo uva,<br>tutifrut e morango cada um</h3>
+    <p>R$40,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0040.jpg">
+    <h3>Protetor Eudora para rosto</h3>
+    <p>Escolha o seu</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0025.jpg">
+    <h3>Maquiagem infantil</h3>
+    <p>R$79,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0010.jpg">
+    <h3>Kit maquiagem infantil</h3>
+    <p>R$130,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+</main>
+
+<footer>
+  <center>
+  <div id="contato">
+      <ul>
+    <h3>Qualquer dúvida entre em contato:</h3>
+    <li><a href="https://wa.me/5511968079403/?text=">Revendedora:(11)96907-9403</a></li>
+    <li><a href="https://wa.me/5511943473207/?text=">Desenvolvedor(11)94347-3207</a></ul>
+  </ul>
+    </ul>
+  </div>
+  <h5>&copy; 2024 Minha Loja Online</h5>
+</center>
+</footer>
+</body>
+</html>

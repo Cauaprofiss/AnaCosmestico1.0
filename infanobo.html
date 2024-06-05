@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="SHORTCUT ICON" href="Logo ana cosmeticos.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet" href="pag.css">
+   <title>AnaCosmetico.com</title>
+</head>
+<script src="ini.js"></script>
+<body>
+<header>
+  
+<nav id="cabeçalho">
+  <center>
+ <img id="logo"src="Logo ana cosmeticos.png">
+ 
+</center>
+</nav>
+<nav id="cabeçalho2">
+  <center>
+    <div class="menu">
+      <button class="material-symbols-outlined" id="side" onclick="abrmen()">Menu</button>
+      <div id="sidebar">
+        <button class="material-symbols-outlined" id="sair" onclick="fecmen()">close</button>
+        <ul id="list">
+          <div id="alinha">
+            <li><a href="inicio.html">Início</a></li>
+          <li><a href="Cabelo.html">Cabelo</a></li>
+          <li><a href="Demillus.html">Demillus</a></li>
+          <li><a href="crmpesabliq.html">Creme de pés e Sabonete líquido</a></li>
+          <li><a href="Tupperware.html">Tupperware</a></li>
+          <li><a href="sabnatobo.html">Sabonete Natura e Oboticário</a></li>
+          <li><a href="desod.html">Desodorante Colônia e rolon</a></li>
+          <li><a href="Rosto.html">Maquiagem e limpeza de pele</a></li>
+          <li><a onclick="abrperf()">Perfume</a></li>
+          <div id="perfume">
+            <ul>
+              <li><a href="Perfem.html">>Perfume Feminino</a></li>
+              <li><a href="Perfumas.html">>Perfume Masculino</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrkit()">Kits</a></li>
+          <div id="kits">
+            <ul>
+              <li><a href="KitObo.html">>Kits Oboticário</a></li>
+              <li><a href="kithidra.html">>Kits Hidratantes+Sabonete, Body splash Natura</a></li>
+              <li><a href="Kithidraobo.html">>Kits Hidratantes+Sabonete Oboticário</a></li>
+            </ul>
+          </div>
+          <li><a onclick="abrinfan()">Infantil</a></li>
+          <div id="infan">
+            <ul>
+          <li><a href="infannat.html">>Infantil Natura</a></li>
+        </ul>
+        </div>
+        <li><a href="hidra.html">Hidratantes</a></li>
+        </div>
+        </ul>
+      </div>
+            </div>
+      <ul>
+    <li id="pesquisa"><input placeholder="qual produto você deseja?" onkeyup="pesquisarProduto()"></li>
+
+    <li><button id="carrinho" class="material-symbols-outlined" onclick="abrcar()">shopping_cart</button></li>
+    <div id="shop">
+      <button id="volt" onclick="feccar()">voltar</button>
+      <div id="prod"></div>
+      <button id="fim" onclick="finalizarCompra()">Finalizar</button>
+    </div>
+</ul>
+  </center>
+</nav>
+</header>
+<main>
+  <section id="produto">
+    <img id="img"src="Imagem do WhatsApp de 2024-05-14 à(s) 16.09.48_725c9de5.jpg">
+    <h3>Gel de Cabelo infantil</h3>
+    <p>R$44,90</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 23.31.14_3b7731db.jpg">
+    <h3>Sabonete Oboticario</h3>
+    <p>R$36,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0010.jpg">
+    <h3>Kit maquiagem infantil</h3>
+    <p>R$130,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0013.jpg">
+    <h3>Kit Perfume e batom wish</h3>
+    <p>R$113,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0015.jpg">
+    <h3>Kit Perfume e <br>Hidratante wish</h3>
+    <p>R$140,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0017.jpg">
+    <h3>Perfume wish</h3>
+    <p>R$93,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0018.jpg">
+    <h3>Hidratante infantil</h3>
+    <p>R$46,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0020.jpg">
+    <h3>Kit duo shophie Colônias</h3>
+    <p>R$115,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="IMG-20240514-WA0022.jpg">
+    <h3>Kit Completo wish</h3>
+    <p>R$290,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0025.jpg">
+    <h3>Maquiagem infantil</h3>
+    <p>R$79,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0028.jpg">
+    <h3>Perfume shophie Hello</h3>
+    <p>R$88,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 22.44.09_c87358b3.jpg">
+    <h3>Kit quasar next</h3>
+    <p>R$100,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0098.jpg">
+    <h3>Gel infantil</h3>
+    <p>R$44,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0104.jpg">
+    <h3>Sophie brilho <br>labial wish</h3>
+    <p>R$19,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0272.jpg">
+    <h3>Kit pincel</h3>
+    <p>R$33,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0107.jpg">
+    <h3>Kit infantil</h3>
+    <p>R$74,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0108.jpg">
+    <h3>Kit infantil</h3>
+    <p>R$74,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0112.jpg">
+    <h3>Shampoo infantil</h3>
+    <p>R$46,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="IMG-20240514-WA0115.jpg">
+    <h3>Kit colônia e loção<br>pós banho Boti baby</h3>
+    <p>R$134,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0119.jpg">
+    <h3>Creme de pentear infantil</h3>
+    <p>R$44,90</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0155.jpg">
+    <h3>Sabonete líquido infantil</h3>
+    <p>R$46,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0159.jpg">
+    <h3>Creme de pentear<br>Dr.Botico</h3>
+    <p>R$33,90</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img"src="IMG-20240514-WA0161.jpg">
+    <h3>Kit Colônia e sabonete<br>Boti baby</h3>
+    <p>R$114,00</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img  id="img"  src="IMG-20240514-WA0162.jpg">
+    <h3>Kit sophie pincels<br>wish</h3>
+    <p>R$39,90</p>
+    <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0167.jpg">
+    <h3>Sabonete líquido <br>Boti baby</h3>
+    <p>R$50,00</p>
+    <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0178.jpg">
+    <h3>Perfume Ma Crérie</h3>
+    <p>R$100,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+  <section id="produto">
+    <img id="img" src="IMG-20240514-WA0266.jpg">
+    <h3>Colônia Dr.Botico</h3>
+    <p>R$79,00</p>
+    <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+  </section>
+
+</main>
+
+<footer>
+  <center>
+  <div id="contato">
+      <ul>
+    <h3>Qualquer dúvida entre em contato:</h3>
+    <li><a href="https://wa.me/5511968079403/?text=">Revendedora:(11)96907-9403</a></li>
+    <li><a href="https://wa.me/5511943473207/?text=">Desenvolvedor(11)94347-3207</a></ul>
+  </ul>
+    </ul>
+  </div>
+  <h5>&copy; 2024 Minha Loja Online</h5>
+</center>
+</footer>
+</body>
+</html>

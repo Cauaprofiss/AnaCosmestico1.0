@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="SHORTCUT ICON" href="Logo ana cosmeticos.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet" href="pag.css">
+   <title>AnaCosmetico.com</title>
+</head>
+<script src="ini.js"></script>
+<body>
+<header>
+  
+<nav id="cabeçalho">
+  <center>
+ <img id="logo"src="Logo ana cosmeticos.png">
+ 
+</center>
+</nav>
+<nav id="cabeçalho2">
+  <center>
+    <ul>
+      <div class="menu">
+        <button class="material-symbols-outlined" id="side" onclick="abrmen()">Menu</button>
+        <div id="sidebar">
+          <button class="material-symbols-outlined" id="sair" onclick="fecmen()">close</button>
+          <ul id="list">
+            <div id="alinha">
+              <li><a href="inicio.html">Início</a></li>
+            <li><a href="Cabelo.html">Cabelo</a></li>
+            <li><a href="crmpesabliq.html">Creme de pés e Sabonete líquido</a></li>
+            <li><a href="Tupperware.html">Tupperware</a></li>
+            <li><a href="Cabelo.html">Sabonete Natura e Oboticário</a></li>
+            <li><a href="desod.html">Desodorante Colônia e rolon</a></li>
+            <li><a href="Rosto.html">Maquiagem e limpeza de pele</a></li>
+            <li><a onclick="abrperf()">Perfume</a></li>
+            <div id="perfume">
+              <ul>
+                <li><a href="Perfem.html">>Perfume Feminino</a></li>
+                <li><a href="Perfumas.html">>Perfume Masculino</a></li>
+              </ul>
+            </div>
+            <li><a onclick="abrkit()">Kits</a></li>
+            <div id="kits">
+              <ul>
+                <li><a href="KitObo.html">>Kits Oboticário</a></li>
+                <li><a href="kithidra.html">>Kits Hidratantes+Sabonete, Body splash Natura</a></li>
+                <li><a href="Kithidraobo.html">>Kits Hidratantes+Sabonete Oboticário</a></li>
+              </ul>
+            </div>
+            <li><a onclick="abrinfan()">Infantil</a></li>
+            <div id="infan">
+              <ul>
+            <li><a href="infannat.html">>Infantil Natura</a></li>
+            <li><a href="infanobo.html">>Infantil Oboticário</a></li>
+          </ul>
+          </div>
+          <li><a href="hidra.html">Hidratantes</a></li>
+          </div>
+          </ul>
+        </div>
+              </div>
+              <ul>
+        
+  <li id="pesquisa">
+    <input id="searchInput" placeholder="Qual produto você deseja?" onkeyup="pesquisarProduto()">
+  </li>
+  <li>
+    <button id="carrinho" class="material-symbols-outlined" onclick="abrcar()">shopping_cart</button>
+  </li>
+  <div id="shop">
+    <button id="volt" onclick="feccar()">voltar</button>
+    <div id="prod"></div>
+    <button id="fim" onclick="finalizarCompra()">Finalizar</button>
+  </div>
+</ul>
+</center>
+</nav>
+</header>
+
+  <main id="loc">
+    <section id="produto">
+      <img id="img"src="IMG-20240514-WA0184.jpg">
+      <h3>Body Demillus</h3>
+      <p>R$48,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0200.jpg">
+      <h3>Pijama infantil<br>tamanho 10</h3>
+      <p>R$50,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.44_6635b1f5.jpg">
+      <h3>De 84,90 por:</h3>
+      <p>R$70,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.13_1743c6c5.jpg">
+      <h3>Camisola queixa</h3>
+      <p>R$49,99</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.12_f273c03e.jpg">
+      <h3>Camisola</h3>
+      <p>R$56,99</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+</main>
+
+<footer>
+  <center>
+  <div id="contato">
+      <ul>
+    <h3>Qualquer dúvida entre em contato:</h3>
+    <li><a href="https://wa.me/5511968079403/?text=">Revendedora:(11)96907-9403</a></li>
+    <li><a href="https://wa.me/5511943473207/?text=">Desenvolvedor(11)94347-3207</a></ul>
+  </ul>
+    </ul>
+  </div>
+  <h5>&copy; 2024 Minha Loja Online</h5>
+</center>
+</footer>
+</body>
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="SHORTCUT ICON" href="Logo ana cosmeticos.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link  rel="stylesheet" href="pag.css">
+   <title>AnaCosmetico.com</title>
+</head>
+<script src="ini.js"></script>
+<body>
+<header>
+
+<nav id="cabeçalho">
+
+  <center>
+ <img id="logo"src="Logo ana cosmeticos.png">
+
+</center>
+</nav>
+<nav id="cabeçalho2">
+  <center>
+      <ul>
+        <div class="menu">
+          <button class="material-symbols-outlined" id="side" onclick="abrmen()">Menu</button>
+          <div id="sidebar">
+            <button class="material-symbols-outlined" id="sair" onclick="fecmen()">close</button>
+            <ul id="list">
+              <div id="alinha">
+                <li><a href="inicio.html">Início</a></li>
+              <li><a href="Demillus.html">Demillus</a></li>
+              <li><a href="crmpesabliq.html">Creme de pés e Sabonete líquido</a></li>
+              <li><a href="Tupperware.html">Tupperware</a></li>
+              <li><a href="Cabelo.html">Sabonete Natura e Oboticário</a></li>
+              <li><a href="desod.html">Desodorante Colônia e rolon</a></li>
+              <li><a href="Rosto.html">Maquiagem e limpeza de pele</a></li>
+              <li><a onclick="abrperf()">Perfume</a></li>
+              <div id="perfume">
+                <ul>
+                  <li><a href="Perfem.html">>Perfume Feminino</a></li>
+                  <li><a href="Perfumas.html">>Perfume Masculino</a></li>
+                </ul>
+              </div>
+              <li><a onclick="abrkit()">Kits</a></li>
+              <div id="kits">
+                <ul>
+                  <li><a href="KitObo.html">>Kits Oboticário</a></li>
+                  <li><a href="kithidra.html">>Kits Hidratantes+Sabonete, Body splash Natura</a></li>
+                  <li><a href="Kithidraobo.html">>Kits Hidratantes+Sabonete Oboticário</a></li>
+                </ul>
+              </div>
+              <li><a onclick="abrinfan()">Infantil</a></li>
+              <div id="infan">
+                <ul>
+              <li><a href="infannat.html">>Infantil Natura</a></li>
+              <li><a href="infanobo.html">>Infantil Oboticário</a></li>
+            </ul>
+            </div>
+            <li><a href="hidra.html">Hidratantes</a></li>
+            </div>
+            </ul>
+          </div>
+                </div>
+    <li id="pesquisa"><input placeholder="qual produto você deseja?" onkeyup="pesquisarProduto()"></li>
+    <li><button id="carrinho" class="material-symbols-outlined" onclick="abrcar()">shopping_cart</button></li>
+    <div id="shop">
+      <button id="volt" onclick="feccar()">voltar</button>
+      <div id="prod"></div>
+      <button id="fim" onclick="finalizarCompra()">Finalizar</button>
+    </div>
+  </ul>
+  </center>
+
+</nav>
+</header>
+
+  <main id="loc">
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 00.25.05_6aa341c0.jpg">
+      <h3>Kit Shampoo,<br>Condicionador<br>e Máscara Resgate <br>Imediato</h3>
+      <p>R$150,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 00.28.59_6959eee9.jpg">
+      <h3><br><br><br>Kit Siage Eudora<br>Combate <br>o frizz</h3>
+      <p>R$150,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 00.54.34_75738a28.jpg">
+      <h3>Kit shampoo e<br>Condicionador <br>Cuide-se bem</h3>
+      <p>R$44,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0232.jpg">
+      <h3>Spray de Volume <br>da natura</h3>
+      <p>R$45,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 22.44.03_0f554242.jpg">
+      <h3>Kit Shampoo,<br>Condicionador <br>e creme<br>de pentear cachos</h3>
+      <p>R$52,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.04.32_891da3fc.jpg">
+      <h3>Óleo controla o frizz</h3>
+      <p>R$44,90</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.12.10_8cf39543.jpg">
+      <h3>Kit Bubballo</h3>
+      <p>R$130,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0280.jpg">
+      <h3>Spray texturizador</h3>
+      <p>R$45,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.29_cf739a31.jpg">
+      <h3>Sérum de tratamento</h3>
+      <p>R$21,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.31_c9ce12cc.jpg">
+      <h3>Óleo de tratamento</h3>
+      <p>R$21,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.34_8703e107.jpg">
+      <h3>Kit Hidratação Micelar</h3>
+      <p>R$148,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.37_4291c8b2.jpg">
+      <h3>Kit Shampoo e<br>Condicionador cada um por:</h3>
+      <p>R$83,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.38_0106868f.jpg">
+      <h3>Kit Shampoo e<br>Condicionador Lily</h3>
+      <p>R$113,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.39_90236a4c.jpg">
+      <h3>Óles finalizador avon<br>por:R$22,00 e da Elseve<br>por:R$45,00</h3>
+      <p>Escolha o seu</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-27 à(s) 23.32.41_a488344f.jpg">
+      <h3>Máscara capilar<br>loiro reparado</h3>
+      <p>R$67,90</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-28 à(s) 18.55.06_879b60a0.jpg">
+      <h3>Máscara de reparação<br>Nutri rosé</h3>
+      <p>R$69,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-28 à(s) 18.55.06_0ab82b5c.jpg">
+      <h3>Máscara Antifrizz<br>Combate o frizz</h3>
+      <p>R$68,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-28 à(s) 18.55.06_5687b9d8.jpg">
+      <h3>Máscara Antiquebra<br>Acelera o Crescimento</h3>
+      <p>R$68,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-28 à(s) 18.55.06_58d166d6.jpg">
+      <h3>Máscara seladora<br>liso intenso</h3>
+      <p>R$68,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-29 à(s) 12.42.48_bd71cd63.jpg">
+      <h3>Kit Shampoo e<br>Condicionador loiro expert</h3>
+      <p>R$80,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="Imagem do WhatsApp de 2024-05-29 à(s) 12.42.48_787f60fb.jpg">
+      <h3>Kit Shampoo e<br>Condicionador instance<br>frutas vermelhas</h3>
+      <p>R$55,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0039.jpg">
+      <h3>Kit Nutri rosé</h3>
+      <p>R$150,00</p>
+      <button  id="Adicionar"onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0060.jpg">
+      <h3>Kit Shampoo e Condicionador<br>ponta a ponta</h3>
+      <p>R$57,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0100.jpg">
+      <h3>Kit Completo liso<br>intenso</h3>
+      <p>R$150,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0127.jpg">
+      <h3>Kit shampoo e Condicionador<br>nativaspa Ameixa negra</h3>
+      <p>R$97,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0132.jpg">
+      <h3>Kit pro cronology</h3>
+      <p>R$210,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0149.jpg">
+      <h3>Kit shampoo maçã<br>e Condicionador<br> óleo de coco</h3>
+      <p>R$44,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0170.jpg">
+      <h3>Kit shampoo e Condicionador<br>Natura Lumina cabelos lisos</h3>
+      <p>R$62,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0171.jpg">
+      <h3>Kit creme de pentear,<br>shampoo e Condicionador<br>Revela os cachos</h3>
+      <p>R$134,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0172.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Glow expert</h3>
+      <p>R$80,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0182.jpg">
+      <h3>Máscara capilar<br>Hair Plastia</h3>
+      <p>R$67,99</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="IMG-20240514-WA0183.jpg">
+      <h3>Kit de cabelo Melissa</h3>
+      <p>R$90,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0186.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Acelera o Crescimento</h3>
+      <p>R$87,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0188.jpg">
+      <h3>Kit Combate o Frizz</h3>
+      <p>R149,00</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0199.jpg">
+      <h3>Creme para cachos</h3>
+      <p>R$32,90</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="IMG-20240514-WA0206.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Revela os cachos</h3>
+      <p>R$65,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img  id="img"  src="IMG-20240514-WA0208.jpg">
+      <h3>Creme de pentear<br>Revele os cachos</h3>
+      <p>R$69,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0210.jpg">
+      <h3>Kit Kit Shampoo,<br>Condicionador e Máscara<br>Acelera o Crescimento</h3>
+      <p>R$155,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0212.jpg">
+      <h3>Kit Shampoo, Condicionador<br>e Creme de pentear <br>para cachos</h3>
+      <p>R$66,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0217.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Hialurônico</h3>
+      <p>R$37,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0221.jpg">
+      <h3>Kit shampoo e Condicionador<br>Nutri ouro</h3>
+      <p>R$80,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0236.jpg">
+      <h3>Máscara Hidratação<br>micelar</h3>
+      <p>R$66,99</p>
+      <button  id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0241.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Liso intenso</h3>
+      <p>R$80,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0243.jpg">
+      <h3>Kit Refil Shampoo e <br>Condicionador<br>Nutri rosé</h3>
+      <p>R$121,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0270.jpg">
+      <h3>Máscara Cauterização<br>dos fios</h3>
+      <p>R$67,99</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0273.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Combate o frizz</h3>
+      <p>R$68,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img" src="IMG-20240514-WA0274.jpg">
+      <h3>Kit Shampoo e Condicionador<br>Proteção dos loiros</h3>
+      <p>R$84,00</p>
+      <button  id="Adicionar"name="essencial" value="345.00" onclick="addcar(event)">adicionar</button>
+    </section>
+    <section id="produto">
+      <img id="img"src="IMG-20240514-WA0276.jpg">
+      <h3>Kit Shampoo, Condicionador<br> e creme para cachos</h3>
+      <p>R$72,00</p>
+      <button id="Adicionar" onclick="addcar(event)">adicionar</button>
+    </section>
+</main>
+
+<footer>
+  <center>
+  <div id="contato">
+      <ul>
+    <h3>Qualquer dúvida entre em contato:</h3>
+    <li><a href="https://wa.me/5511968079403/?text=">Revendedora:(11)96907-9403</a></li>
+    <li><a href="https://wa.me/5511943473207/?text=">Desenvolvedor(11)94347-3207</a></ul>
+  </ul>
+    </ul>
+  </div>
+  <h5>&copy; 2024 Minha Loja Online</h5>
+</center>
+</footer>
+</body>
+</html>
