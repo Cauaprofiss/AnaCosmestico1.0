@@ -1,1 +1,1160 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',Courier,monospace}#cabeçalho{max-width:100%;height:60px;width:100%;background-color:purple;border:1px solid #fff}#cabeçalho2{max-width:100%;height:60px;width:100%;background-color:purple}#logo{width:60px;position:center}nav li input{position:center;margin-left:10%;margin-top:7%;display:flex;justify-content:space-between;width:250px;height:25px}nav ul{list-style-type:none;margin:0;padding:0}nav ul li{display:inline-block}nav ul li a{color:#fff;border:1px outset purple;text-align:center;text-decoration:none;padding:10px;display:block}nav ul li a:hover{background-color:#fff;color:purple}li button{margin-left:320%;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}li button #carrinho{display:inline-flex;position:absolute}#shop{position:absolute;display:none;margin-left:50%;top:0;background-color:#d87093;width:50%;height:auto}#volt{background-color:purple;color:#fff;padding:4px;margin-right:80%;border-radius:50px;user-select:none;cursor:pointer;border:solid #d87093}#fim{display:block;width:218px;padding:8px;border-radius:50px;border:1px solid #d87093;background-color:#adff2f;color:#fff;cursor:pointer;user-select:none}#fim:hover{background-color:green}li button#carrinho:hover{background-color:purple;color:#fff}h3{font-family:'Courier New',Courier,monospace;color:#fff}body{background-color:#d87093;font-family:'Courier New',Courier,monospace}h2{color:#fff;font-size:40px;text-align:center;padding:5px;display:inline-block}h2 a{text-decoration:none}#side{margin-left:5%;border:solid purple;position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#side:hover{background-color:purple;color:#fff}#sidebar{position:absolute;display:none;top:0;border:groove purple;background-color:purple;width:60%;height:200%}#sair{position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#sair:hover{background-color:purple;color:#fff}#list li{display:block}#perfume{display:none;opacity:.5}#kits{display:none;opacity:.5}#infan{display:none;opacity:.5}#alinha{margin-top:20%}main{display:flex;flex-wrap:wrap;justify-content:center;padding:20px;overflow:hidden}#produto{margin:5px;padding:10px;border:1px solid purple;text-align:center}#produto img{width:100px}#produto p{display:grid;color:#fff;font-family:'Courier New',Courier,monospace}#Adicionar{margin-top:2%;padding:10px 22px;width:120px;color:#fff;background-color:#adff2f;border-radius:20px;text-align:center;user-select:none;cursor:pointer;transition:1s}#Adicionar:hover{background-color:green}h1{color:#fff;text-align:center}#base{width:365px}#Revista{width:180px;height:120px;background-color:#fff;border-radius:20px;border:1px outset #d87093;text-align:center}#tup{width:300px;height:300px;border-radius:20px;margin-top:2%}h6{font-size:20px}#pdf p{color:purple;text-align:center;display:flex}#abx{margin-top:2%;padding:10px;width:100px;color:#fff;background-color:blue;border-radius:20px;border:outset blue;text-align:center;user-select:none;cursor:pointer;transition:1s}#abx:hover{background-color:#5252e9}h4{color:#fff;padding-top:10%}footer{background-color:purple;width:100%;max-width:100%;height:80px;list-style-type:none}section{background-color:#ffc0cb}#contato{display:inline-block}#contato li a{text-decoration:none;list-style:none}a{color:#fff;cursor:pointer}h5{color:#fff;background-color:#dda0dd}@media (max-width:379px){*{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',Courier,monospace}#cabeçalho{max-width:100%;height:60px;width:100%;background-color:purple;border:1px solid #fff}#cabeçalho2{max-width:100%;height:60px;width:100%;background-color:purple}#logo{width:60px;position:center}nav li input{position:center;margin-top:7%;display:flex;justify-content:space-between;width:190px;height:25px}nav ul{list-style-type:none;margin:0;padding:0}nav ul li{display:inline-block}nav ul li a{color:#fff;border:1px outset purple;text-align:center;text-decoration:none;padding:10px;display:block}nav ul li a:hover{background-color:#fff;color:purple}li button{margin-left:310%;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}li button #carrinho{display:flex;position:absolute}#menu:hover{background-color:purple;color:#fff}li button#carrinho:hover{background-color:purple;color:#fff}#shop{position:absolute;display:none;margin-left:40%;top:0;background-color:#d87093;width:50%;height:auto}#volt{background-color:purple;color:#fff;padding:4px;margin-right:80%;border-radius:50px;user-select:none;cursor:pointer;border:solid #d87093}h3{color:#fff}body{background-color:#ffc0cb;font-family:'Courier New',Courier,monospace}h2{color:#fff;font-size:40px;text-align:center;padding:5px}#side{margin-left:3%;border:solid purple;position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#side:hover{background-color:purple;color:#fff}#sidebar{position:absolute;display:none;top:0;border:groove purple;background-color:purple;width:60%;height:200%}#sair{position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#sair:hover{background-color:purple;color:#fff}#list li{display:block}#perfume{display:none;opacity:.5}#kits{display:none;opacity:.5}#infan{display:none;opacity:.5}#alinha{margin-top:20%}main{display:flex;flex-wrap:wrap;background-color:#ffc0cb;justify-content:center;padding:20px;overflow:hidden}#Adicionar{margin-top:2%;padding:10px 22px;width:120px;color:#fff;background-color:#adff2f;border-radius:20px;text-align:center;user-select:none;cursor:pointer;transition:1s}#Adicionar:hover{background-color:green}h1{color:#fff;text-align:center}#base{width:350px}#tup,#cas{width:300px;height:300px;border-radius:20px;margin-top:2%}#Revista{width:205px;background-color:#fff;border-radius:20px;border:outset #d87093;text-align:center}#pdf p{color:purple;text-align:center;display:flex}#abx{margin-top:2%;padding:10px;width:100px;color:#fff;background-color:blue;border-radius:20px;border:outset blue;text-align:center;user-select:none;cursor:pointer;transition:1s}#abx:hover{background-color:#5252e9}h4{color:#fff;padding-top:10%}footer{background-color:purple;width:100%;max-width:100%;height:80px;list-style-type:none}section{background-color:#ffc0cb}#contato{display:inline-block}a{color:#fff;cursor:pointer}h5{color:#fff;background-color:#dda0dd}}@media(min-width:620px){*{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',Courier,monospace}#cabeçalho{max-width:100%;height:60px;width:100%;background-color:purple;border:1px solid #fff}#cabeçalho2{max-width:100%;height:50px;width:100%;background-color:purple}#logo{width:60px;position:center}header{flex-wrap:wrap}nav li input{position:center;margin-top:7%;display:flex;justify-content:space-between;width:350px;height:25px}nav ul{list-style-type:none;margin:0;padding:0}nav ul li{display:inline-block}nav ul li a{color:#fff;border:1px outset purple;text-align:center;text-decoration:none;padding:10px;display:block}nav ul li a:hover{background-color:#fff;color:purple}li button{margin-left:560%;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}li button #carrinho{display:flex;position:absolute}#menu:hover{background-color:purple;color:#fff}li button#carrinho:hover{background-color:purple;color:#fff}#shop{position:absolute;display:none;margin-left:50%;top:0;background-color:#d87093;width:50px;height:auto}#volt{background-color:purple;color:#fff;padding:4px;margin-right:80%;border-radius:50px;user-select:none;cursor:pointer;border:solid #d87093}h3{color:#fff}body{background-color:#ffc0cb;font-family:'Courier New',Courier,monospace}#side{border:solid purple;position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#side:hover{background-color:purple;color:#fff}#sidebar{position:absolute;display:none;top:0;border:outset purple;background-color:purple;width:40%;height:200%}#sair{position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#sair:hover{background-color:purple;color:#fff}#list li{display:block}#perfume{display:none;opacity:.5}#kits{display:none;opacity:.5}#infan{display:none;opacity:.5}#alinha{margin-top:20%}main{display:flex;flex-wrap:wrap;background-color:#ffc0cb;justify-content:center;padding:20px;overflow:hidden}h1{color:#fff;text-align:center}#base{width:600px}#Revista{width:205px;background-color:#fff;border-radius:20px;border:1px outset #d87093;text-align:center}#tup,#cas{width:300px;height:300px;border-radius:20px;margin-top:2%}#pdf p{color:purple;text-align:center;display:flex}#abx{margin-top:2%;padding:10px;width:100px;color:#fff;background-color:blue;border-radius:20px;border:outset blue;text-align:center;user-select:none;cursor:pointer;transition:1s}#abx:hover{background-color:#5252e9}#Adicionar{margin-top:2%;padding:10px 22px;width:120px;color:#fff;background-color:#adff2f;border-radius:20px;text-align:center;user-select:none;cursor:pointer;transition:1s}#Adicionar:hover{background-color:green}h4{color:#fff;padding-top:10%}footer{background-color:purple;width:100%;max-width:100%;height:80px;list-style-type:none}#contato{display:inline-block}a{color:#fff;cursor:pointer}footer{background-color:purple;width:100%;max-width:100%;height:80px;list-style-type:none}section{background-color:#ffc0cb}#contato{display:inline-block}a{color:#fff;cursor:pointer}h5{color:#fff;background-color:#dda0dd}}@media(min-width:864px){*{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',Courier,monospace}#cabeçalho{max-width:100%;height:60px;width:100%;background-color:purple;border:1px solid #fff}#cabeçalho2{max-width:100%;height:50px;width:100%;background-color:purple}#logo{width:60px;position:center}nav li input{position:center;margin-top:3%;display:flex;justify-content:space-between;width:500px;height:25px}nav ul{list-style-type:none;margin:0;padding:0}nav ul li{display:inline-block}nav ul li a{color:#fff;border:1px outset purple;text-align:center;text-decoration:none;padding:10px;display:block}nav ul li a:hover{background-color:#fff;color:purple}li button{margin-left:750%;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}li button #carrinho{display:flex;position:absolute}li button#carrinho:hover{background-color:purple;color:#fff}#shop{display:none;margin-left:100%;top:0;background-color:#d87093;width:40%;height:auto;position:relative;z-index:999}#volt{background-color:purple;color:#fff;padding:4px;margin-right:80%;border-radius:50px;user-select:none;cursor:pointer;border:solid #d87093}h3{color:#fff}body{background-color:#ffc0cb;flex-wrap:wrap;font-family:'Courier New',Courier,monospace}#side{border:solid purple;position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#side:hover{background-color:purple;color:#fff}#sidebar{position:absolute;display:none;top:0;border:groove purple;background-color:purple;width:40%;height:200%}#sair{position:absolute;display:flex;padding:8px;width:50px;color:purple;background-color:#fff;border:solid purple;border-radius:90px;text-align:center;user-select:none;cursor:pointer;transition:1s}#sair:hover{background-color:purple;color:#fff}#list li{display:block}#perfume{display:none;opacity:.5}#kits{display:none;opacity:.5}#infan{display:none;opacity:.5}#alinha{margin-top:20%}main{display:flex;flex-wrap:wrap;background-color:#ffc0cb;justify-content:center;padding:20px;overflow:hidden}section{background-color:#ffc0cb}#Adicionar{margin-top:2%;padding:10px 22px;width:120px;color:#fff;background-color:#adff2f;border-radius:20px;text-align:center;user-select:none;cursor:pointer;transition:1s}#Adicionar:hover{background-color:green}h1{color:#fff;text-align:center}#base{width:800px}#Revista{margin:2px;width:205px;background-color:#fff;border-radius:20px;border:1px outset #d87093;text-align:center}#tup{width:300px;height:300px;border-radius:20px;margin-top:2%}#pdf p{color:purple;text-align:center;display:flex}#abx{margin-top:2%;padding:10px;width:100px;color:#fff;background-color:blue;border-radius:20px;border:outset blue;text-align:center;user-select:none;cursor:pointer;transition:1s}#abx:hover{background-color:#5252e9}h4{color:#fff;padding-top:10%}footer{background-color:purple;width:100%;max-width:100%;height:80px;list-style-type:none}#contato{display:inline-block}a{color:#fff;cursor:pointer}#contato{list-style-type:none}h5{color:#fff;background-color:#dda0dd}}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Courier New',Courier,monospace
+}
+#cabeçalho {
+    max-width:100%;
+    height:60px;
+    width:100%;
+    background-color:purple;
+    border:1px solid #fff
+}
+#cabeçalho2 {
+    max-width:100%;
+    height:60px;
+    width:100%;
+    background-color:purple
+}
+#logo {
+    width:60px;
+    position:center
+}
+nav li input {
+    position:center;
+    margin-left:10%;
+    margin-top:7%;
+    display:flex;
+    justify-content:space-between;
+    width:250px;
+    height:25px
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0
+}
+nav ul li {
+    display:inline-block
+}
+nav ul li a {
+    color:#fff;
+    border:1px outset purple;
+    text-align:center;
+    text-decoration:none;
+    padding:10px;
+    display:block
+}
+nav ul li a:hover {
+    background-color:#fff;
+    color:purple
+}
+li button {
+    margin-left:320%;
+    padding:8px;
+    width:50px;
+    color:purple;
+    background-color:#fff;
+    border:solid purple;
+    border-radius:90px;
+    text-align:center;
+    user-select:none;
+    cursor:pointer;
+    transition:1s
+}
+li button #carrinho {
+    display:inline-flex;
+    position:absolute
+}
+#shop {
+    position:absolute;
+    display:none;
+    margin-left:50%;
+    top:0;
+    background-color:#d87093;
+    width:50%;
+    height:auto
+}
+#modalPagamento {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #modalPagamento h2 {
+    margin-top: 5%;
+    color: purple;
+  }
+  
+  #modalPagamento input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  #modalPagamento button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color:purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #modalPagamento button:hover {
+    background-color: rgb(190, 6, 190);
+  }
+  #sa{
+    margin-left: 5%;
+  }
+#volt {
+    background-color:purple;
+    color:#fff;
+    padding:4px;
+    margin-right:80%;
+    border-radius:50px;
+    user-select:none;
+    cursor:pointer;
+    border:solid #d87093
+}
+#fim {
+    display:block;
+    width:218px;
+    padding:8px;
+    border-radius:50px;
+    border:1px solid #d87093;
+    background-color:#adff2f;
+    color:#fff;
+    cursor:pointer;
+    user-select:none
+}
+#fim:hover {
+    background-color:green
+}
+li button#carrinho:hover {
+    background-color:purple;
+    color:#fff
+}
+h3 {
+    font-family:'Courier New',Courier,monospace;
+    color:#fff
+}
+body {
+    background-color:#d87093;
+    font-family:'Courier New',Courier,monospace
+}
+h2 {
+    color:#fff;
+    font-size:40px;
+    text-align:center;
+    padding:5px;
+    display:inline-block
+}
+h2 a {
+    text-decoration:none
+}
+#side {
+    margin-left:5%;
+    border:solid purple;
+    position:absolute;
+    display:flex;
+    padding:8px;
+    width:50px;
+    color:purple;
+    background-color:#fff;
+    border-radius:90px;
+    text-align:center;
+    user-select:none;
+    cursor:pointer;
+    transition:1s
+}
+#side:hover {
+    background-color:purple;
+    color:#fff
+}
+#sidebar {
+    position:absolute;
+    display:none;
+    top:0;
+    border:groove purple;
+    background-color:purple;
+    width:60%;
+    height:200%
+}
+#sair {
+    position:absolute;
+    display:flex;
+    padding:8px;
+    width:50px;
+    color:purple;
+    background-color:#fff;
+    border:solid purple;
+    border-radius:90px;
+    text-align:center;
+    user-select:none;
+    cursor:pointer;
+    transition:1s
+}
+#sair:hover {
+    background-color:purple;
+    color:#fff
+}
+#list li {
+    display:block
+}
+#perfume {
+    display:none;
+    opacity:.5
+}
+#kits {
+    display:none;
+    opacity:.5
+}
+#infan {
+    display:none;
+    opacity:.5
+}
+#alinha {
+    margin-top:20%
+}
+main {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:20px;
+    overflow:hidden
+}
+#produto {
+    margin:5px;
+    padding:10px;
+    border:1px solid purple;
+    text-align:center
+}
+#produto img {
+    width:100px
+}
+#produto p {
+    display:grid;
+    color:#fff;
+    font-family:'Courier New',Courier,monospace
+}
+#Adicionar {
+    margin-top:2%;
+    padding:10px 22px;
+    width:120px;
+    color:#fff;
+    background-color:#adff2f;
+    border-radius:20px;
+    text-align:center;
+    user-select:none;
+    cursor:pointer;
+    transition:1s
+}
+#Adicionar:hover {
+    background-color:green
+}
+h1 {
+    color:#fff;
+    text-align:center
+}
+#base {
+    width:365px
+}
+#Revista {
+    width:180px;
+    height:120px;
+    background-color:#fff;
+    border-radius:20px;
+    border:1px outset #d87093;
+    text-align:center
+}
+#tup {
+    width:300px;
+    height:300px;
+    border-radius:20px;
+    margin-top:2%
+}
+h6 {
+    font-size:20px
+}
+#pdf p {
+    color:purple;
+    text-align:center;
+    display:flex
+}
+#abx {
+    margin-top:2%;
+    padding:10px;
+    width:100px;
+    color:#fff;
+    background-color:blue;
+    border-radius:20px;
+    border:outset blue;
+    text-align:center;
+    user-select:none;
+    cursor:pointer;
+    transition:1s
+}
+#abx:hover {
+    background-color:#5252e9
+}
+h4 {
+    color:#fff;
+    padding-top:10%
+}
+footer {
+    background-color:purple;
+    width:100%;
+    max-width:100%;
+    height:80px;
+    list-style-type:none
+}
+section {
+    background-color:#ffc0cb
+}
+#contato {
+    display:inline-block
+}
+#contato li a {
+    text-decoration:none;
+    list-style:none
+}
+a {
+    color:#fff;
+    cursor:pointer
+}
+h5 {
+    color:#fff;
+    background-color:#dda0dd
+}
+@media (max-width:379px) {
+    * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Courier New',Courier,monospace
+    }
+    #cabeçalho {
+        max-width:100%;
+        height:60px;
+        width:100%;
+        background-color:purple;
+        border:1px solid #fff
+    }
+    #cabeçalho2 {
+        max-width:100%;
+        height:60px;
+        width:100%;
+        background-color:purple
+    }
+    #logo {
+        width:60px;
+        position:center
+    }
+    nav li input {
+        position:center;
+        margin-top:7%;
+        display:flex;
+        justify-content:space-between;
+        width:190px;
+        height:25px
+    }
+    nav ul {
+        list-style-type:none;
+        margin:0;
+        padding:0
+    }
+    nav ul li {
+        display:inline-block
+    }
+    nav ul li a {
+        color:#fff;
+        border:1px outset purple;
+        text-align:center;
+        text-decoration:none;
+        padding:10px;
+        display:block
+    }
+    nav ul li a:hover {
+        background-color:#fff;
+        color:purple
+    }
+    li button {
+        margin-left:310%;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    li button #carrinho {
+        display:flex;
+        position:absolute
+    }
+    #menu:hover {
+        background-color:purple;
+        color:#fff
+    }
+    li button#carrinho:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #shop {
+        position:absolute;
+        display:none;
+        margin-left:40%;
+        top:0;
+        background-color:#d87093;
+        width:50%;
+        height:auto
+    }
+    #volt {
+        background-color:purple;
+        color:#fff;
+        padding:4px;
+        margin-right:80%;
+        border-radius:50px;
+        user-select:none;
+        cursor:pointer;
+        border:solid #d87093
+    }
+    h3 {
+        color:#fff
+    }
+    body {
+        background-color:#ffc0cb;
+        font-family:'Courier New',Courier,monospace
+    }
+    h2 {
+        color:#fff;
+        font-size:40px;
+        text-align:center;
+        padding:5px
+    }
+    #side {
+        margin-left:3%;
+        border:solid purple;
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #side:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #sidebar {
+        position:absolute;
+        display:none;
+        top:0;
+        border:groove purple;
+        background-color:purple;
+        width:60%;
+        height:200%
+    }
+    #sair {
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #sair:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #list li {
+        display:block
+    }
+    #perfume {
+        display:none;
+        opacity:.5
+    }
+    #kits {
+        display:none;
+        opacity:.5
+    }
+    #infan {
+        display:none;
+        opacity:.5
+    }
+    #alinha {
+        margin-top:20%
+    }
+    main {
+        display:flex;
+        flex-wrap:wrap;
+        background-color:#ffc0cb;
+        justify-content:center;
+        padding:20px;
+        overflow:hidden
+    }
+    #Adicionar {
+        margin-top:2%;
+        padding:10px 22px;
+        width:120px;
+        color:#fff;
+        background-color:#adff2f;
+        border-radius:20px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #Adicionar:hover {
+        background-color:green
+    }
+    h1 {
+        color:#fff;
+        text-align:center
+    }
+    #base {
+        width:350px
+    }
+    #tup,#cas {
+        width:300px;
+        height:300px;
+        border-radius:20px;
+        margin-top:2%
+    }
+    #Revista {
+        width:205px;
+        background-color:#fff;
+        border-radius:20px;
+        border:outset #d87093;
+        text-align:center
+    }
+    #pdf p {
+        color:purple;
+        text-align:center;
+        display:flex
+    }
+    #abx {
+        margin-top:2%;
+        padding:10px;
+        width:100px;
+        color:#fff;
+        background-color:blue;
+        border-radius:20px;
+        border:outset blue;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #abx:hover {
+        background-color:#5252e9
+    }
+    h4 {
+        color:#fff;
+        padding-top:10%
+    }
+    footer {
+        background-color:purple;
+        width:100%;
+        max-width:100%;
+        height:80px;
+        list-style-type:none
+    }
+    section {
+        background-color:#ffc0cb
+    }
+    #contato {
+        display:inline-block
+    }
+    a {
+        color:#fff;
+        cursor:pointer
+    }
+    h5 {
+        color:#fff;
+        background-color:#dda0dd
+    }
+}
+@media(min-width:620px) {
+    * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Courier New',Courier,monospace
+    }
+    #cabeçalho {
+        max-width:100%;
+        height:60px;
+        width:100%;
+        background-color:purple;
+        border:1px solid #fff
+    }
+    #cabeçalho2 {
+        max-width:100%;
+        height:50px;
+        width:100%;
+        background-color:purple
+    }
+    #logo {
+        width:60px;
+        position:center
+    }
+    header {
+        flex-wrap:wrap
+    }
+    nav li input {
+        position:center;
+        margin-top:7%;
+        display:flex;
+        justify-content:space-between;
+        width:350px;
+        height:25px
+    }
+    nav ul {
+        list-style-type:none;
+        margin:0;
+        padding:0
+    }
+    nav ul li {
+        display:inline-block
+    }
+    nav ul li a {
+        color:#fff;
+        border:1px outset purple;
+        text-align:center;
+        text-decoration:none;
+        padding:10px;
+        display:block
+    }
+    nav ul li a:hover {
+        background-color:#fff;
+        color:purple
+    }
+    li button {
+        margin-left:560%;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    li button #carrinho {
+        display:flex;
+        position:absolute
+    }
+    #menu:hover {
+        background-color:purple;
+        color:#fff
+    }
+    li button#carrinho:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #shop {
+        position:absolute;
+        display:none;
+        margin-left:50%;
+        top:0;
+        background-color:#d87093;
+        width:50%;
+        height:auto
+    }
+    #volt {
+        background-color:purple;
+        color:#fff;
+        padding:4px;
+        margin-right:80%;
+        border-radius:50px;
+        user-select:none;
+        cursor:pointer;
+        border:solid #d87093
+    }
+    h3 {
+        color:#fff
+    }
+    body {
+        background-color:#ffc0cb;
+        font-family:'Courier New',Courier,monospace
+    }
+    #side {
+        border:solid purple;
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #side:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #sidebar {
+        position:absolute;
+        display:none;
+        top:0;
+        border:outset purple;
+        background-color:purple;
+        width:40%;
+        height:200%
+    }
+    #sair {
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #sair:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #list li {
+        display:block
+    }
+    #perfume {
+        display:none;
+        opacity:.5
+    }
+    #kits {
+        display:none;
+        opacity:.5
+    }
+    #infan {
+        display:none;
+        opacity:.5
+    }
+    #alinha {
+        margin-top:20%
+    }
+    main {
+        display:flex;
+        flex-wrap:wrap;
+        background-color:#ffc0cb;
+        justify-content:center;
+        padding:20px;
+        overflow:hidden
+    }
+    h1 {
+        color:#fff;
+        text-align:center
+    }
+    #base {
+        width:600px
+    }
+    #Revista {
+        width:205px;
+        background-color:#fff;
+        border-radius:20px;
+        border:1px outset #d87093;
+        text-align:center
+    }
+    #tup,#cas {
+        width:300px;
+        height:300px;
+        border-radius:20px;
+        margin-top:2%
+    }
+    #pdf p {
+        color:purple;
+        text-align:center;
+        display:flex
+    }
+    #abx {
+        margin-top:2%;
+        padding:10px;
+        width:100px;
+        color:#fff;
+        background-color:blue;
+        border-radius:20px;
+        border:outset blue;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #abx:hover {
+        background-color:#5252e9
+    }
+    #Adicionar {
+        margin-top:2%;
+        padding:10px 22px;
+        width:120px;
+        color:#fff;
+        background-color:#adff2f;
+        border-radius:20px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #Adicionar:hover {
+        background-color:green
+    }
+    h4 {
+        color:#fff;
+        padding-top:10%
+    }
+    footer {
+        background-color:purple;
+        width:100%;
+        max-width:100%;
+        height:80px;
+        list-style-type:none
+    }
+    #contato {
+        display:inline-block
+    }
+    a {
+        color:#fff;
+        cursor:pointer
+    }
+    footer {
+        background-color:purple;
+        width:100%;
+        max-width:100%;
+        height:80px;
+        list-style-type:none
+    }
+    section {
+        background-color:#ffc0cb
+    }
+    #contato {
+        display:inline-block
+    }
+    a {
+        color:#fff;
+        cursor:pointer
+    }
+    h5 {
+        color:#fff;
+        background-color:#dda0dd
+    }
+}
+@media(min-width:864px) {
+    * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Courier New',Courier,monospace
+    }
+    #cabeçalho {
+        max-width:100%;
+        height:60px;
+        width:100%;
+        background-color:purple;
+        border:1px solid #fff
+    }
+    #cabeçalho2 {
+        max-width:100%;
+        height:50px;
+        width:100%;
+        background-color:purple
+    }
+    #logo {
+        width:60px;
+        position:center
+    }
+    nav li input {
+        position:center;
+        margin-top:3%;
+        display:flex;
+        justify-content:space-between;
+        width:500px;
+        height:25px
+    }
+    nav ul {
+        list-style-type:none;
+        margin:0;
+        padding:0
+    }
+    nav ul li {
+        display:inline-block
+    }
+    nav ul li a {
+        color:#fff;
+        border:1px outset purple;
+        text-align:center;
+        text-decoration:none;
+        padding:10px;
+        display:block
+    }
+    nav ul li a:hover {
+        background-color:#fff;
+        color:purple
+    }
+    li button {
+        margin-left:750%;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    li button #carrinho {
+        display:flex;
+        position:absolute
+    }
+    li button#carrinho:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #shop {
+        display:none;
+        margin-left:60%;
+        background-color:#d87093;
+        width:40%;
+        height:auto;
+        position:absolute;
+        z-index:999
+    }
+    #modalPagamento {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      #modalPagamento h2 {
+        margin-top: 0;
+      }
+      
+      #modalPagamento input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      #modalPagamento button {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #modalPagamento button:hover {
+        background-color: #0056b3;
+      }
+    #volt {
+        background-color:purple;
+        color:#fff;
+        padding:4px;
+        margin-right:80%;
+        border-radius:50px;
+        user-select:none;
+        cursor:pointer;
+        border:solid #d87093
+    }
+    h3 {
+        color:#fff
+    }
+    body {
+        background-color:#ffc0cb;
+        flex-wrap:wrap;
+        font-family:'Courier New',Courier,monospace
+    }
+    #side {
+        border:solid purple;
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #side:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #sidebar {
+        position:absolute;
+        display:none;
+        top:0;
+        border:groove purple;
+        background-color:purple;
+        width:40%;
+        height:200%
+    }
+    #sair {
+        position:absolute;
+        display:flex;
+        padding:8px;
+        width:50px;
+        color:purple;
+        background-color:#fff;
+        border:solid purple;
+        border-radius:90px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #sair:hover {
+        background-color:purple;
+        color:#fff
+    }
+    #list li {
+        display:block
+    }
+    #perfume {
+        display:none;
+        opacity:.5
+    }
+    #kits {
+        display:none;
+        opacity:.5
+    }
+    #infan {
+        display:none;
+        opacity:.5
+    }
+    #alinha {
+        margin-top:20%
+    }
+    main {
+        display:flex;
+        flex-wrap:wrap;
+        background-color:#ffc0cb;
+        justify-content:center;
+        padding:20px;
+        overflow:hidden
+    }
+    section {
+        background-color:#ffc0cb
+    }
+    #Adicionar {
+        margin-top:2%;
+        padding:10px 22px;
+        width:120px;
+        color:#fff;
+        background-color:#adff2f;
+        border-radius:20px;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #Adicionar:hover {
+        background-color:green
+    }
+    h1 {
+        color:#fff;
+        text-align:center
+    }
+    #base {
+        width:800px
+    }
+    #Revista {
+        margin:2px;
+        width:205px;
+        background-color:#fff;
+        border-radius:20px;
+        border:1px outset #d87093;
+        text-align:center
+    }
+    #tup {
+        width:300px;
+        height:300px;
+        border-radius:20px;
+        margin-top:2%
+    }
+    #pdf p {
+        color:purple;
+        text-align:center;
+        display:flex
+    }
+    #abx {
+        margin-top:2%;
+        padding:10px;
+        width:100px;
+        color:#fff;
+        background-color:blue;
+        border-radius:20px;
+        border:outset blue;
+        text-align:center;
+        user-select:none;
+        cursor:pointer;
+        transition:1s
+    }
+    #abx:hover {
+        background-color:#5252e9
+    }
+    h4 {
+        color:#fff;
+        padding-top:10%
+    }
+    footer {
+        background-color:purple;
+        width:100%;
+        max-width:100%;
+        height:80px;
+        list-style-type:none
+    }
+    #contato {
+        display:inline-block
+    }
+    a {
+        color:#fff;
+        cursor:pointer
+    }
+    #contato {
+        list-style-type:none
+    }
+    h5 {
+        color:#fff;
+        background-color:#dda0dd
+    }
+}
