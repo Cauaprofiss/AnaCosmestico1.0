@@ -419,6 +419,43 @@ h5 {
         width:50%;
         height:auto
     }
+    #modalPagamento {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      #modalPagamento h2 {
+        margin-top: 5%;
+        color: purple;
+      }
+      
+      #modalPagamento input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      #modalPagamento button {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color:purple;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #modalPagamento button:hover {
+        background-color: rgb(190, 6, 190);
+      }
+      #sa{
+        margin-left: 5%;
+      }
     #volt {
         background-color:purple;
         color:#fff;
@@ -685,6 +722,43 @@ h5 {
         width:50%;
         height:auto
     }
+    #modalPagamento {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      #modalPagamento h2 {
+        margin-top: 5%;
+        color: purple;
+      }
+      
+      #modalPagamento input[type="radio"] {
+        margin-right: 10px;
+      }
+      
+      #modalPagamento button {
+        margin-top: 10px;
+        padding: 8px 16px;
+        background-color:purple;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      #modalPagamento button:hover {
+        background-color: rgb(190, 6, 190);
+      }
+      #sa{
+        margin-left: 5%;
+      }
     #volt {
         background-color:purple;
         color:#fff;

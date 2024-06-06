@@ -76,6 +76,13 @@
 </nav>
 </header>
 <main>
+  <div id="modalPagamento">
+    <button class="material-symbols-outlined" id="sa" onclick="fecfor()">close</button>
+    <h2>Forma de Pagamento</h2>
+    <input type="radio" name="pagamento" value="Pix" id="Pix"> <label for="Pix">Pix</label><br>
+    <input type="radio" name="pagamento" value="Dinheiro" id="Dinheiro"> <label for="Dinheiro">Dinheiro</label><br>
+    <button onclick="confirmarPagamento()">Confirmar Pagamento</button>
+  </div>
   <section id="produto">
     <img id="img"src="Imagem do WhatsApp de 2024-05-14 à(s) 16.09.48_725c9de5.jpg">
     <h3>Gel de Cabelo infantil</h3>
