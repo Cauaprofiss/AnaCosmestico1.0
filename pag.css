@@ -146,7 +146,7 @@ li button #carrinho {
     background-color:#adff2f;
     color:#fff;
     cursor:pointer;
-    user-select:none
+    user-select:none;
 }
 #fim:hover {
     background-color:green
@@ -159,6 +159,13 @@ h3 {
     font-family:'Courier New',Courier,monospace;
     font-size:15px;
     color:#fff
+}
+#opc{
+background-color: purple;
+border: solid pink;
+font: normal 12pt arial;
+color: white;
+cursor:pointer;
 }
 body {
     background-color:#d87093;

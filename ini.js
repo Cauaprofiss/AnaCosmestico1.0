@@ -47,6 +47,64 @@ function listopi() {
       e.style.display = t.toUpperCase().indexOf(n) > -1 ? "" : "none";
     }
   }
+  function addcaresc(e) {
+    var t = e.target,
+        n = document.querySelectorAll("#produto button");
+    for (var o = 0; o < n.length; o++) {
+        if ((c = n[o]) === t) {
+            var r = c.parentElement,
+                l = r.querySelector("h3").textContent,
+                d = l.split("por:")[1].trim().replace("R$", "").trim(), // Extrai o preço do produto
+                a = r.querySelector("img").src,
+                opc = r.querySelector("select").value, // Obtém a opção selecionada
+                i = document.getElementById("prod"),
+                c = document.createElement("div");
+            c.style.border = "5px solid white";
+            
+            var img = document.createElement("img");
+            img.src = a;
+            img.style.width = "120px";
+            c.appendChild(img);
+            
+            var pNome = document.createElement("p");
+              pNome.textContent = l.split("por:")[0].trim() + " - " + opc; // Adiciona a opção selecionada ao nome do produto
+            pNome.style.color = "white";
+            c.appendChild(pNome);
+            
+            var pPreco = document.createElement("p");
+            pPreco.textContent = "R$" + d;
+            pPreco.style.color = "white";
+            c.appendChild(pPreco);
+            
+            var btnRemover = document.createElement("button");
+            btnRemover.innerText = "remover";
+            btnRemover.onclick = function() {
+                removerDoCarrinho(this);
+            };
+            btnRemover.style.padding = "4px 8px";
+            btnRemover.style.backgroundColor = "red";
+            btnRemover.style.border = "solid red";
+            btnRemover.style.userSelect = "none";
+            btnRemover.style.cursor = "pointer";
+            btnRemover.style.borderRadius = "50px";
+            c.appendChild(btnRemover);
+            
+            i.appendChild(c);
+            alert("Produto adicionado ao carrinho: " + pNome.textContent);
+            break;
+        }
+    }
+    var e = document.getElementById("prod").innerHTML;
+    localStorage.setItem("carrinho", e);
+}
+
+function removerDoCarrinho(button) {
+    var item = button.parentElement;
+    item.remove();
+    var e = document.getElementById("prod").innerHTML;
+    localStorage.setItem("carrinho", e);
+}
+
 
   function addcar(e) {
     var t = e.target,
