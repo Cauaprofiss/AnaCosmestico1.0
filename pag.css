@@ -143,7 +143,7 @@ li button #carrinho {
     padding:8px;
     border-radius:50px;
     border:1px solid #d87093;
-    background-color:#adff2f;
+    background-color:#4a6e14;
     color:#fff;
     cursor:pointer;
     user-select:none;
@@ -182,12 +182,13 @@ h2 a {
     text-decoration:none
 }
 #side {
+    margin-top:1%;
     margin-left:3%;
     border:solid purple;
     position:absolute;
     display:flex;
     padding:8px;
-    width:50px;
+    width:85px;
     color:purple;
     background-color:#fff;
     border-radius:90px;
@@ -271,8 +272,8 @@ main {
     margin-top:10%;
     padding:10px 22px;
     width:120px;
-    color:#fff;
-    background-color:#adff2f;
+    color:white;
+    background-color:#4a6e14;
     border-radius:20px;
     text-align:center;
     user-select:none;
@@ -421,12 +422,13 @@ h5 {
         padding:5px
     }
     #side {
+        margin-top:1%;
         margin-left:5%;
         border:solid purple;
         position:absolute;
         display:flex;
         padding:8px;
-        width:50px;
+        width:85px;
         color:purple;
         background-color:#fff;
         border-radius:90px;
@@ -549,7 +551,7 @@ h5 {
         padding:10px 22px;
         width:120px;
         color:#fff;
-        background-color:#adff2f;
+        background-color:#4a6e14;
         border-radius:20px;
         text-align:center;
         user-select:none;
@@ -729,11 +731,12 @@ h5 {
         font-family:'Courier New',Courier,monospace
     }
     #side {
+        margin-top:1%;
         border:solid purple;
         position:absolute;
         display:flex;
         padding:8px;
-        width:50px;
+        width:85px;
         color:purple;
         background-color:#fff;
         border-radius:90px;
@@ -804,7 +807,7 @@ h5 {
         padding:10px 22px;
         width:120px;
         color:#fff;
-        background-color:#adff2f;
+        background-color:#4a6e14;
         border-radius:20px;
         text-align:center;
         user-select:none;
@@ -993,11 +996,12 @@ h5 {
         font-family:'Courier New',Courier,monospace
     }
     #side {
+        margin-top:1%;
         border:solid purple;
         position:absolute;
         display:flex;
         padding:8px;
-        width:50px;
+        width:85px;
         color:purple;
         background-color:#fff;
         border-radius:90px;
@@ -1071,7 +1075,7 @@ h5 {
         padding:10px 22px;
         width:120px;
         color:#fff;
-        background-color:#adff2f;
+        background-color:#4a6e14;
         border-radius:20px;
         text-align:center;
         user-select:none;
