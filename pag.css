@@ -37,11 +37,11 @@
 }
 nav li input {
     position:center;
-    margin-left:13%;
+    margin-left:15%;
     margin-top:7%;
     display:flex;
     justify-content:space-between;
-    width:250px;
+    width:200px;
     height:25px
 }
 nav ul {
@@ -183,7 +183,7 @@ h2 a {
 }
 #side {
     margin-top:1%;
-    margin-left:3%;
+    margin-left:0%;
     border:solid purple;
     position:absolute;
     display:flex;
@@ -337,11 +337,12 @@ h5 {
         position:center
     }
     nav li input {
+        margin-left: 20%;
         position:center;
         margin-top:7%;
         display:flex;
         justify-content:space-between;
-        width:190px;
+        width:180px;
         height:25px
     }
     nav ul {
@@ -392,7 +393,7 @@ h5 {
     #shop {
         position:absolute;
         display:none;
-        margin-left:45%;
+        margin-left:90%;
         top:0;
         background-color:#d87093;
         width:55%;
@@ -423,11 +424,11 @@ h5 {
     }
     #side {
         margin-top:1%;
-        margin-left:5%;
+        margin-left:0%;
         border:solid purple;
         position:absolute;
         display:flex;
-        padding:8px;
+        padding:5px;
         width:85px;
         color:purple;
         background-color:#fff;
